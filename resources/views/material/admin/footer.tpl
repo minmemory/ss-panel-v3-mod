@@ -1,6 +1,6 @@
 	<footer class="ui-footer" style="position:relative">
 		<div class="container">
-			&copy; {$config["appName"]}  <a href="/staff">STAFF</a> {if $config["enable_analytics_code"] == 'true'}{include file='analytics.tpl'}{/if}
+			&copy; {$config["appName"]}  <a href="/staff">STAFF</a> {if $config["icpbeian"] !==''}<a href="http://www.miitbeian.gov.cn" target=_blank>{$config["icpbeian"]}</a>{/if} {if $config["mpsbeian"] !==''}<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode={$config["mpscode"]}" target=_blank>{$config["mpsbeian"]}</a>{/if}{if $config["enable_analytics_code"] == 'true'}{include file='analytics.tpl'}{/if}
 		</div>
 	</footer>
 
