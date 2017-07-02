@@ -316,3 +316,8 @@ $System_Config['zfbjk_qrcodeurl']='https://www.zhaojin97.cn/wp-content/uploads/2
 
 #不安全中转模式，这个开启之后使用除了 auth_aes128_md5 或者 auth_aes128_sha1 以外的协议地用户也可以设置和使用中转，但是，强烈推荐不开启。
 $System_Config['relay_insecure_mode']='false';
+
+#网站备案信息
+$System_Config['icpbeian']='';  //粤ICP1700xxxx号-1
+$System_Config['mpsbeian']='';  //粤公网安备440103xxxxxx号  
+$System_Config['mpscode']='';  //440103xxxxxx
